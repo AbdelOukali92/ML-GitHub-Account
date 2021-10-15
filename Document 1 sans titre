@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+	int n ,m,i ;
+printf("Veuillez entrer un nombre\n");
+scanf("%d",&n);
+
+for (i=1,i<=n/2,i++){
+		if (n%i == 0){
+		m +=i;
+		//printf("%d\n",i);
+}
+		}
+
+
+if(m==n)
+	printf("le nombre %d est parfait\n",n);
+		else
+		printf("le nombre %d n'est pas parfait,n);
+		return 0;
+
+}
+
+
